@@ -1,0 +1,14 @@
+小程序组件
+
+cover-image
+cover-view
+movable-area
+movable-view
+scroll-view
+swiper
+swiper-item
+view
+
+导航组件
+
+navigator

@@ -1,0 +1,65 @@
+angular  组件库  
+
+material
+ng-zorro 
+组件库
+安装
+使用
+
+常用组件的使用
+
+微信小程序 
+参考资料
+小程序是一种新的开放能力，开发者可以快速地开发一个小程序。
+小程序可以在微信内被便捷地获取和传播，同时具有出色的使用体验。
+https://mp.weixin.qq.com/cgi-bin/wx
+
+
+公众平台服务号、订阅号、企业号的相关说明
+1、订阅号：主要偏于为用户传达资讯（类似报纸杂志），认证前后都是每天只可以群发一条消息；
+2、服务号：主要偏于服务交互（类似银行，114，提供服务查询），认证前后都是每个月可群发4条消息；
+3、企业号：主要用于公司内部通讯使用，需要先验证身份才可以关注成功企业号。
+
+
+接入流程
+
+	注册 
+	小程序信息完善
+	开发小程序
+	提交审核和发布
+	
+	https://developers.weixin.qq.com/miniprogram/dev/index.html
+	
+下载微信开发工具
+
+小程序代码构成
+
+	.json 后缀的 JSON 配置文件
+	.wxml 后缀的 WXML 模板文件
+	.wxss 后缀的 WXSS 样式文件
+	.js 后缀的 JS 脚本逻辑文件
+
+
+app.js	    是小程序逻辑
+app.json	是小程序公共配置
+app.wxss	小程序公共样式表
+
+app.json
+全局配置
+
+pages
+window
+tabBar
+
+
+作业   
+
+联想组件库使用 
+
+小程序  基本配置  
+预习小程序
+https://developers.weixin.qq.com/miniprogram/dev/index.html
+
+
+
+

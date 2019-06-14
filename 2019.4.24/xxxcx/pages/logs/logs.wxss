@@ -1,0 +1,17 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.pic{width:338rpx;height:338rpx;}
+.pic1{width:375rpx;height:375rpx;float: left;}
+.pic2{width:375rpx;height:375rpx;float: left;}
+.m,.m1{font-size:20rpx;}
+.drink{margin-top:40rpx;}
+.left{ width: 375rpx;height: 400rpx;float:left;}
+.right{width: 375rpx;height: 400rpx;float:left;}
+.m3,.m4{font-size: 20rpx;}
+.life{margin-top:40rpx;}

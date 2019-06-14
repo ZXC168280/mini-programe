@@ -1,0 +1,53 @@
+<view class='c1'>
+
+<scroll-view class="scroll-view_H" scroll-left="{{ left }}"  scroll-x="true"  style="width: 100%">
+   <view class="{{ curr==0? 'active':''}}"  bindtap='tab'  data-num="0" >新闻</view>
+   <view class="{{ curr==1? 'active':''}}"  bindtap='tab'  data-num="1">下雨</view>
+   <view class="{{ curr==2? 'active':''}}"  bindtap='tab'  data-num="2" >大雨</view>
+   <view class="{{ curr==3? 'active':''}}"  bindtap='tab'  data-num="3">打雪仗</view>
+    <view class="{{ curr==4? 'active':''}}"  bindtap='tab'  data-num="4" >新闻1</view>
+   <view class="{{ curr==5? 'active':''}}"  bindtap='tab'  data-num="5">下雨2</view>
+   <view class="{{ curr==6? 'active':''}}"  bindtap='tab'  data-num="6" >大雨3</view>
+   <view class="{{ curr==7? 'active':''}}"  bindtap='tab'  data-num="7">打雪仗4</view>
+   <view class="{{ curr==8? 'active':''}}"  bindtap='tab'  data-num="8" >新闻5</view>
+   <view class="{{ curr==9? 'active':''}}"  bindtap='tab'  data-num="9">下雨</view>
+</scroll-view>
+
+</view>
+<swiper
+  indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}"
+  interval="{{interval}}"
+  duration="{{duration}}"
+  circular="{{ circular }}"
+  vertical="{{ vertical }}"
+  indicator-color="rgba(255,255,0,1)"
+  indicator-active-color="#f00"
+  bindchange="ch"
+  current="{{ curr }}"
+>
+
+ <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" style="width:100%" />
+    </swiper-item>
+  </block>
+
+
+</swiper>
+
+
+ <navigator
+    url="/pages/order/order?id=123"
+    hover-class="navigator-hover"
+  >
+     首页
+  </navigator>
+
+  <navigator
+    url="/pages/index/index"
+    open-type="switchTab"
+    hover-class="other-navigator-hover"
+  >
+    切换 Tab  首页
+  </navigator>

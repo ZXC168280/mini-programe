@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="index" id="{{ id1 }}"  capture-bind:tap='t3' >
+      <text  bindtap='tap1'  data-num='123'    >{{ title + "aaaaa hello " }}</text> 
+      <view class='t1' capture-bind:tap='t2' ></view>
+
+      <view wx:for="{{ list }}" wx:for-index="idx" wx:for-item="news"    >   {{ news }} {{ idx }} </view>
+     
+     <view wx:for="{{ arr }}" >
+              <text>
+               {{ item.title }}
+               </text>
+
+               <view wx:for="{{ item.name}}" wx:for-item="t" >
+                  {{ t }}
+               </view>
+           
+
+     </view>
+    <view wx:if="{{flag}}" >
+      aaaaaaaaaaaaaaaaa
+    </view>
+
+    <view hidden="{{ flag }}" >bbbbbbbbbbbbbbbbbb</view>
+     
+
+
+
+</view>
+<view style='width:300rpx;height:300rpx;background:#f00'></view>
+
+<image src="https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=1764447070,1449389971&fm=173&app=49&f=JPEG?w=218&h=146&s=E53E8674761B00671C9EF3C30300F0BB" style="width: 200px; height: 200px; background-color: #eeeeee;" ></image>

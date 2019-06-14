@@ -1,0 +1,24 @@
+/* pages/cart/cart.wxss */
+
+.scroll-view_H{
+   white-space: nowrap;
+   height: 28px;
+}
+.c1{
+  width:100%;
+
+}
+.c1 view{
+    width: 120rpx;
+    display: inline-block;
+    font-size: 20px;
+    height: 28px;
+
+}
+
+.c1 view.active{
+   
+   border-bottom: 2rpx solid #f00;
+   background: #f00;
+
+}

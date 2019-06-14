@@ -1,0 +1,86 @@
+<!--logs.wxml-->
+<view class="container log-list">
+<image  class="pic" src='https://www.ycyy365.com/style/shop/images/user_info_photo_default.png'></image>
+</view>
+<!--1-->
+<view class='dq'>家用电器</view>
+
+<view> 
+<view class='left'>
+<navigator
+    url="/pages/index/index"
+    open-type="switchTab"
+    hover-class="other-navigator-hover">
+<image class="pic1" src='https://www.ycyy365.com/uploads/goods/364/carousel/20181228/1545986064_5a2249c3Ne7bb4022 (1).jpg'></image> 
+</navigator>
+<p class="m3">五粮液（WULIANGYE） 五粮液股份公司出品浓香型白酒52度</p>
+
+</view>
+
+<view class='right'>
+<navigator
+url="/pages/index/index"
+    open-type="switchTab"
+    hover-class="other-navigator-hover">
+   <image class="pic2" src="https://www.ycyy365.com/uploads/goods/364/carousel/20181228/1545986064_5a2249c3Ne7bb4022 (1).jpg"> </image>
+    
+    </navigator>
+
+<p class="m4">五粮液股份有限公司 五粮ptvip珍藏级52度浓香型白酒单瓶</p>
+</view>
+</view>
+<!--中外名酒-->
+<view class='drink'>中外名酒</view>
+<view> 
+<view class='left'>
+<navigator
+    url="/pages/index/index"
+    open-type="switchTab"
+    hover-class="other-navigator-hover">
+<image class="pic1" src='https://www.ycyy365.com/uploads/goods/369/carousel/20181228/1545988646_5b03ae52N5be051e7.jpg'></image> 
+</navigator>
+<p class="m3">五粮液（WULIANGYE） 五粮液股份公司出品浓香型白酒52度</p>
+
+</view>
+
+<view class='right'>
+<navigator
+url="/pages/index/index"
+    open-type="switchTab"
+    hover-class="other-navigator-hover">
+   <image class="pic2" src="https://www.ycyy365.com/uploads/goods/368/carousel/20181228/1545987994_5be52d71Na0799229.jpg"> </image>
+    
+    </navigator>
+
+<p class="m4">五粮液股份有限公司 五粮ptvip珍藏级52度浓香型白酒单瓶</p>
+</view>
+</view>
+
+<!--生活用品-->
+<view class='life'>生活用品</view>
+<view> 
+<view class='left'>
+<navigator
+    url="/pages/index/index"
+    open-type="switchTab"
+    hover-class="other-navigator-hover">
+    
+<image class="pic1" src='https://www.ycyy365.com/uploads/goods/7/carousel/20181129/1543482584_0.jpg'></image> 
+</navigator>
+<p class="m3">LKK55度杯 洛可可降温杯 快速恒温杯</p>
+
+</view>
+
+<view class='right'>
+<navigator
+url="/pages/index/index"
+    open-type="switchTab"
+    hover-class="other-navigator-hover">
+    
+   <image class="pic2" src="https://www.ycyy365.com/uploads/goods/339/carousel/20181226/1545815923_TB1h1rjkDtYBeNjy1XdXXXXyVXa_!!0-item_pic.jpg"> </image>
+    
+    </navigator>
+
+<p class="m4">电子血压测量仪家用全自动高精准上臂式语音血压计器充电老人医用</p>
+</view>
+</view>
